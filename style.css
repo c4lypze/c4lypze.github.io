@@ -1,0 +1,103 @@
+@font-face { 
+	font-family: 'perfectdos'; 
+	src: url('fonts/perfectdos/Perfect_DOS_VGA_437.ttf'); 
+}
+
+@font-face { 
+	font-family: 'NAMU'; 
+	src: url('fonts/NAMU/NAMU.ttf'); 
+}
+
+@font-face {
+	font-family: 'minecraft'; 
+	src: url('fonts/minecraft/Minecraft.ttf'); 
+}
+
+body {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	background: url(image/background.jpg) no-repeat;
+	background-color: #3e4637; /* WindowBG */
+	font-family: Tahoma;
+	font-size: 16px;
+	color: #d2e1b5;
+}
+div {
+	background-color: #4c5844; /* ControlBG */
+	border-bottom: solid 1px #292d23; /* BorderDark */
+	border-left: solid 1px #889180; /* TitleDimText */
+	border-right: solid 1px #292d23; /* BorderDark */
+	border-top: solid 1px #889180; /* TitleDimText */
+	padding: 10px;
+}
+h1 {
+	text-align: center;
+	font-size: 4.5em;
+	font-family: perfectdos;
+	font-weight: normal;
+	color: #cfd5da;
+	margin-top: 20px;
+}
+h2 {
+	text-align: center;
+	font-size: 1.5em;
+	font-family: verdana;
+	font-weight: normal;
+	color: #aeb9c1;
+}
+a {
+	color: #b2bac4;
+	cursor: pointer;
+}
+a:hover {
+	color: #ffffff;
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+}
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+tr td {
+	background: #323a2b;
+	margin: 10px!important;
+	padding: 10px;
+	vertical-align: top;
+}
+p {
+	margin-bottom: 0px;
+}
+.copy {
+	color: #ffffff;
+	text-align: center;
+	font-family: minecraft;
+}
+.hl {
+	/* highlight */
+	color: #c4b550; /* BrightControlText */
+}
+.frm {
+	/* form */
+	display: inline;
+}
+.btn {
+	/* button */
+	background: #4c5844; /* ControlBG */
+	border-bottom: solid 1px #292d23; /* BorderDark */
+	border-left: solid 1px #889180; /* TitleDimText */
+	border-right: solid 1px #292d23; /* BorderDark */
+	border-top: solid 1px #889180; /* TitleDimText */
+	color: #b2bac4;
+	cursor: pointer;
+	display: inline;
+	font-size: 1em;
+}
+.btn:hover {
+	color: #ffffff;
+}
