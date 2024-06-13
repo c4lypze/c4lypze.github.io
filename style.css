@@ -26,14 +26,14 @@ body {
 	margin-bottom: 10px;
 	margin-right: 10px;
 	margin-left: 10px;
-	background: url(image/background.jpg) no-repeat;
-	background-color: #3e4637; /* WindowBG */
-	font-family: Tahoma;
-	font-size: 16px;
-	color: #d2e1b5;
-  	display: table-cell;
-    	vertical-align: middle;
-}
+	background-color: #3e4637;
+	font-family: "Trebuchet MS", "Verdana", sans-serif;
+	color: #d8ded3;
+	font-size: 14px;
+	image-rendering: pixelated;
+	vertical-align: middle;
+	display: table-cell;
+  }
 div {
 	background-color: #4c5844; /* ControlBG */
 	border-bottom: solid 1px #292d23; /* BorderDark */
@@ -65,28 +65,50 @@ a:hover {
 	color: #ffffff;
 }
 img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 100%;
+	border: solid 2px #7b8484;
 }
 table {
 	margin-left: auto;
 	margin-right: auto;
 }
 tr td {
-	background: #323a2b;
+	background: #3e4637; /* Задник у прямоугольников с ссылками */
 	margin: 10px!important;
 	padding: 10px;
-	vertical-align: top;
+	vertical-align: center;
+	border-top: solid 1px #292d23;
+  	border-bottom: solid 1px #899281;
+  	border-left: solid 1px #292d23;
+  	border-right: solid 1px #899281;
 }
 p {
-	margin-bottom: 0px;
+	text-align: left;
+	margin: 12px 12px 12px;
+	color: #d8ded3;
 }
+a {
+	text-decoration: none;
+	color: #aaaaaa;
+}
+a:hover {
+	text-decoration: underline;
+}
+code {
+	background: #3e4637;
+	padding: 0 3px;
+}
+legend {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 12px;
+	color: white;
+	font-weight: bold;
+}
+
 .copy {
 	color: #ffffff;
 	text-align: center;
-	font-family: minecraft;
+	font-family: Trebuchet MS;
 }
 .hl {
 	/* highlight */
